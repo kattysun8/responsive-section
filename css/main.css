@@ -27,8 +27,21 @@ section {
 
 .section-icon {
   width: 50%;
+  float: left;
+  display: block;
 }
 
 .section-letter {
   width: 50%;
+  float: left;
+  display: block;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.section-body {
+  margin: 1em;
 }
