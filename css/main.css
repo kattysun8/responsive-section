@@ -23,18 +23,33 @@ body {
 
 section {
   background-color: #e5c30a;
+  padding: 1.3rem;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.wrapper {
+  margin: auto;
+  overflow: hidden;
+  max-width: 45rem;
 }
 
 .section-icon {
-  width: 50%;
-  float: left;
-  display: block;
+  max-width: 50%;
+  float: right;
+  text-align: center;
 }
 
 .section-letter {
-  width: 50%;
+  max-width: 50%;
   float: left;
-  display: block;
+  text-align: center;
 }
 
 .img-flex {
@@ -43,5 +58,51 @@ section {
 }
 
 .section-body {
-  margin: 1em;
+  padding: 0.5em;
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .img-flex {
+    max-width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .section-letter {
+    width: 20%;
+    float: left;
+  }
+
+  .section-icon {
+    width: 20%;
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+
 }
